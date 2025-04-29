@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 490015361e4acc84d8db938d6366b195, type: 3}
+  m_Name: New SO_Data_Key Anim Play
+  m_EditorClassIdentifier: 
+  _nameSO: New SO_Data_Key Anim Play
+  _setName: 1
+  _ChechTargetPath: 1
+  _list:
+  - _identifierData: {fileID: 11400000, guid: 1b3e0e80e10d20a4496f033f57c410e8, type: 2}
+    _dataKey:
+      _key: Start Gun
+  - _identifierData: {fileID: 11400000, guid: cbf30f60cde3c9747bb4bd4f471f8bfa, type: 2}
+    _dataKey:
+      _key: Reloading Gun
+  _fatalError:
+    Enable: 0
+    TextError: 
+    MessageType: 3
+  _error:
+    Enable: 0
+    TextError: 
+    MessageType: 2
