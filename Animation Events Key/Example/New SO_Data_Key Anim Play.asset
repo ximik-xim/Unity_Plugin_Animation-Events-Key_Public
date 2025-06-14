@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _nameSO: New SO_Data_Key Anim Play
   _setName: 1
-  _ChechTargetPath: 1
+  _saveBackupChangeData: 1
   _list:
-  - _identifierData: {fileID: 11400000, guid: 1b3e0e80e10d20a4496f033f57c410e8, type: 2}
+  - _identifierData: {fileID: 11400000, guid: f26c871b2bc03b941a1da85ed9213fc0, type: 2}
     _dataKey:
       _key: Start Gun
-  - _identifierData: {fileID: 11400000, guid: cbf30f60cde3c9747bb4bd4f471f8bfa, type: 2}
+  - _identifierData: {fileID: 11400000, guid: abf5e89f8c74b3e4fab8590e3d58bad9, type: 2}
     _dataKey:
       _key: Reloading Gun
   _fatalError:

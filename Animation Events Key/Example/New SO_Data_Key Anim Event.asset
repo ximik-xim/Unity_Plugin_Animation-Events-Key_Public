@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _nameSO: New SO_Data_Key Anim Event
   _setName: 1
-  _ChechTargetPath: 1
+  _saveBackupChangeData: 1
   _list:
-  - _identifierData: {fileID: 11400000, guid: 2ce4b6420e3b6c043b93a396f130734f, type: 2}
+  - _identifierData: {fileID: 11400000, guid: d63e844bd6372f341a90f2a3306e3db2, type: 2}
     _dataKey:
       _key: StartAnim
-  - _identifierData: {fileID: 11400000, guid: 8a43a2fdd7681eb41ad738294f6c0161, type: 2}
+  - _identifierData: {fileID: 11400000, guid: 56b1406ba64027848a4d1fb30c858a8b, type: 2}
     _dataKey:
       _key: ComplitedAnim
   _fatalError:

@@ -151,20 +151,20 @@ MonoBehaviour:
   _storageAnimPlay: {fileID: 1726693343}
   _keyAnimPlays:
   - _dataSO: {fileID: 11400000, guid: a0ac1e834485e6344bee52abad9e6272, type: 2}
-    _selectIndif: {fileID: 11400000, guid: cbf30f60cde3c9747bb4bd4f471f8bfa, type: 2}
+    _selectIndif: {fileID: 11400000, guid: f26c871b2bc03b941a1da85ed9213fc0, type: 2}
     _error:
       Enable: 0
       TextError: 
       MessageType: 0
   - _dataSO: {fileID: 11400000, guid: a0ac1e834485e6344bee52abad9e6272, type: 2}
-    _selectIndif: {fileID: 11400000, guid: 1b3e0e80e10d20a4496f033f57c410e8, type: 2}
+    _selectIndif: {fileID: 11400000, guid: abf5e89f8c74b3e4fab8590e3d58bad9, type: 2}
     _error:
       Enable: 0
       TextError: 
       MessageType: 0
   _keyAnimEventComlited:
     _dataSO: {fileID: 11400000, guid: da0661cc1ba4ea3448ff5ee5b432c6b1, type: 2}
-    _selectIndif: {fileID: 11400000, guid: 8a43a2fdd7681eb41ad738294f6c0161, type: 2}
+    _selectIndif: {fileID: 11400000, guid: 56b1406ba64027848a4d1fb30c858a8b, type: 2}
     _error:
       Enable: 0
       TextError: 
@@ -195,6 +195,7 @@ GameObject:
   - component: {fileID: 788602876}
   - component: {fileID: 788602875}
   - component: {fileID: 788602874}
+  - component: {fileID: 788602877}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -276,6 +277,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &788602877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788602873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1 &788829671
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,6 +454,38 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: e938bf7245a5e7a4c93421b9c38fa4ea, type: 2}
+    - target: {fileID: 1236450265718140266, guid: bf249b2155a4ace4694ab48aa3f5a679, type: 3}
+      propertyPath: _click
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1236450265718140266, guid: bf249b2155a4ace4694ab48aa3f5a679, type: 3}
+      propertyPath: _jsData
+      value: '{"_keyAnimPlay":{"_key":"Reloading Gun"},"_keyAnimEvent":{"_key":"StartAnim"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1236450265718140266, guid: bf249b2155a4ace4694ab48aa3f5a679, type: 3}
+      propertyPath: _keyAnimPlay._selectIndif
+      value: 
+      objectReference: {fileID: 11400000, guid: abf5e89f8c74b3e4fab8590e3d58bad9, type: 2}
+    - target: {fileID: 1236450265718140266, guid: bf249b2155a4ace4694ab48aa3f5a679, type: 3}
+      propertyPath: _keyAnimEvent._selectIndif
+      value: 
+      objectReference: {fileID: 11400000, guid: d63e844bd6372f341a90f2a3306e3db2, type: 2}
+    - target: {fileID: 1236450265718140266, guid: bf249b2155a4ace4694ab48aa3f5a679, type: 3}
+      propertyPath: _keyAnimPlay._error.Enable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1236450265718140266, guid: bf249b2155a4ace4694ab48aa3f5a679, type: 3}
+      propertyPath: _keyAnimEvent._error.Enable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1236450265718140266, guid: bf249b2155a4ace4694ab48aa3f5a679, type: 3}
+      propertyPath: _keyAnimPlay._error.TextError
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1236450265718140266, guid: bf249b2155a4ace4694ab48aa3f5a679, type: 3}
+      propertyPath: _keyAnimEvent._error.TextError
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1942845021550020650, guid: bf249b2155a4ace4694ab48aa3f5a679, type: 3}
       propertyPath: m_Name
       value: Gun Anim
@@ -417,6 +494,14 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: e938bf7245a5e7a4c93421b9c38fa4ea, type: 2}
+    - target: {fileID: 5100602804650628126, guid: bf249b2155a4ace4694ab48aa3f5a679, type: 3}
+      propertyPath: _inspectorData.Array.data[0].Key._selectIndif
+      value: 
+      objectReference: {fileID: 11400000, guid: f26c871b2bc03b941a1da85ed9213fc0, type: 2}
+    - target: {fileID: 5100602804650628126, guid: bf249b2155a4ace4694ab48aa3f5a679, type: 3}
+      propertyPath: _inspectorData.Array.data[1].Key._selectIndif
+      value: 
+      objectReference: {fileID: 11400000, guid: abf5e89f8c74b3e4fab8590e3d58bad9, type: 2}
     - target: {fileID: 7993548668237552617, guid: bf249b2155a4ace4694ab48aa3f5a679, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
